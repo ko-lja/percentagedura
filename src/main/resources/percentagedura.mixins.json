@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "lu.kolja.percentagedura.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "percentagedura.refmap.json",
+  "mixins": [
+    "MixinGTItemBarRenderer"
+  ],
+  "client": [
+    "MixinGuiGraphics"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
